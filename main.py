@@ -1,9 +1,10 @@
 from pandas import DataFrame, read_csv
 
-afastasmento = """SE AFASTO A VIDA INTEIRA """
-Historico = """
-AQUI TESTADO O HISTORICO DENTRO DO PROGRAMA """
-hist = f"""
+#VARIABLES
+afastamentos:str = None
+historico:str = None
+
+HDA = f"""
 ▶OBJETO: 
 ________________________________________________________________________
 
@@ -18,11 +19,10 @@ ________________________________________________________________________
 
 →Os dados e consequentes conclusões baseiam-se na estruturação do relato do periciando; a congruência entre o quadro atual (sintomas descritos;  exame estado mental; análise de linguagem corporal), com diagnósticos/descrições em documentos médicos e respostas esperadas para cada tratamento dentro de sua casuística.
 
-
 ▶RESUMO DE DADOS PREVIDENCIÁRIOS:
 ________________________________________________________________________
 
-»Afastamentos/Concessões por Incapacidade:
+»A/Concessões por Incapacidade:
 {afastamentos}
 
 ▶ANÁLISE
@@ -31,19 +31,25 @@ ________________________________________________________________________
 »Apresentação Atual:
 {historico}
 """
+#KEYS
+ensino =  f["Unnamed: 3"]["r393"]
+emprego = f["Unnamed: 3"]["r588"]
+ult_atividade = f["Unnamed: 3"]["r591"]
+motivo = f["Unnamed: 3"]["r594"]
+anamnese = f["Unnamed: 3"]["r374"]
+documentos = f["Unnamed: 3"]["r375"]
+eem = f["Unnamed: 3"]["r376"]
+DID = f["Unnamed: 3"]["r605"]
 
-data = read_csv("ae.csv",delimiter=',',index_col=0, header=4)
+data = read_csv("ae.csv",delimiter=',',index_col=0)
+frame = DataFrame(data)
 f = DataFrame(data).to_dict()
+print(f)
+f["Unnamed: 3"].update({"r374":hist})
 
-f["Value"].update({"r374":hist})
 
 
-ensino =  f["Value"]["r393"]
-emprego = f["Value"]["r588"]
-ult_atividade = f["Value"]["r591"]
-motivo = f["Value"]["r594"]
-anamnese = f["Value"]["r374"]
-documentos = f["Value"]["r375"]
-eem = f["Value"]["r376"]
-DID = f["Value"]["r605"]
-print(anamnese)
+
+secframe = DataFrame(f).to_csv(header=False)
+with open("ae.csv", "w+") as f:
+    f.write(secframe)

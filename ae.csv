@@ -1,24 +1,22 @@
-### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
 c66,LAUDO JUDICIAL,,,,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
-r360,0,"^txtUltimaAtividade$","","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r361,0,"^txtTarefasExigidasUltimaAtividade$","","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r362,0,"^txtExperienciasLaboraisAnt$","------","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r363,3,"^rdoPacienteDoPerito$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r364,3,"^rdoReabilitacaoProfissional$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r365,3,"^rdoDoencaTrabalhoAcidente$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r366,3,"^rdoAutorDoencas$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r367,3,"^rdoAutorCooperaTratamento$","100","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r368,3,"^rdoTratamentoMantidoBeneficioPrevio$","1000","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r369,3,"^chkDadoComplementarPericia002$","1","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r370,3,"^rdoDadoComplementarPericia004_D002_S$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r371,3,"^rdoDadoComplementarPericia005_D002_S$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r372,3,"^rdoDadoComplementarPericia029$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r373,3,"^rdoDadoComplementarPericia033$","01","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r374,0,"^txaHistoricoAnamnese$"," 
- 
+r360,0,^txtUltimaAtividade$,,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r361,0,^txtTarefasExigidasUltimaAtividade$,,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r362,0,^txtExperienciasLaboraisAnt$,------,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r363,3,^rdoPacienteDoPerito$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r364,3,^rdoReabilitacaoProfissional$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r365,3,^rdoDoencaTrabalhoAcidente$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r366,3,^rdoAutorDoencas$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r367,3,^rdoAutorCooperaTratamento$,100,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r368,3,^rdoTratamentoMantidoBeneficioPrevio$,1000,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r369,3,^chkDadoComplementarPericia002$,1,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r370,3,^rdoDadoComplementarPericia004_D002_S$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r371,3,^rdoDadoComplementarPericia005_D002_S$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r372,3,^rdoDadoComplementarPericia029$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r373,3,^rdoDadoComplementarPericia033$,01,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r374,0,^txaHistoricoAnamnese$,"
 ▶OBJETO: 
 ________________________________________________________________________
 
@@ -33,24 +31,25 @@ ________________________________________________________________________
 
 →Os dados e consequentes conclusões baseiam-se na estruturação do relato do periciando; a congruência entre o quadro atual (sintomas descritos;  exame estado mental; análise de linguagem corporal), com diagnósticos/descrições em documentos médicos e respostas esperadas para cada tratamento dentro de sua casuística.
 
-
 ▶RESUMO DE DADOS PREVIDENCIÁRIOS:
 ________________________________________________________________________
 
 »Afastamentos/Concessões por Incapacidade:
-
+SE AFASTO A VIDA INTEIRA 
 
 ▶ANÁLISE
 ________________________________________________________________________
 
-»Apresentação Atual: 
-","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r375,0,"^txaDocumentosMedicosAnalisados$","——————————————————————
+»Apresentação Atual:
+
+AQUI TESTADO O HISTORICO DENTRO DO PROGRAMA 
+",eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r375,0,^txaDocumentosMedicosAnalisados$,"——————————————————————
 
 ⇨Documentos Médicos Anexados
 
-","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r376,0,"^txaExameFisicoMental$","——————————————————————
+",eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r376,0,^txaExameFisicoMental$,"——————————————————————
 
 »Paciente deambulando normalmente;  
 
@@ -71,45 +70,45 @@ r376,0,"^txaExameFisicoMental$","———————————————�
 - Linguagem Adequada para nível de educação; 
 
 ________________________________________________________________________
- ","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r377,0,"^txaCausaProvavelDiagnostico$","Idiopática","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r378,0,"^txaDadoComplementarPericia003_D002_S$","Inexistência de incapacidade devido à ausência de sintomatologia distinta da observada em avaliações prévias e quadro atestado não ser compatível com dados obtidos em exame técnico presencial. ","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r379,0,"^txaDadoComplementarPericia032$","É natural que discrepâncias sejam observadas e conclusões distintas sejam obtidas. Doenças são dinâmicas, e demonstrarão modificações entre períodos de tempos distintos.","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r380,0,"^txaQuesitoParteAutora$","Conforme determinação judicial, em trecho a seguir:
-''O formulário padrão é suficiente à produção da prova técnica. Eventuais omissões poderão ser sanadas, no prazo de dez dias, após a juntada do laudo pericial aos autos, mediante quesitos complementares - que somente serão deferidos quando relevantes para o deslinde do feito e desde que o questionamento não esteja englobado nas considerações constantes do laudo.""","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r393,0,"^txtFormacaoTecnicoProfissional$","Ensino","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r394,0,"^txtDID$","","eproc.jfrs.jus.br/eprocV2/controlador.php",0,c66
-r568,0,"^txaDocumentosMedicosAnalisados$","——————————————————————
+ ",eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r377,0,^txaCausaProvavelDiagnostico$,Idiopática,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r378,0,^txaDadoComplementarPericia003_D002_S$,Inexistência de incapacidade devido à ausência de sintomatologia distinta da observada em avaliações prévias e quadro atestado não ser compatível com dados obtidos em exame técnico presencial. ,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r379,0,^txaDadoComplementarPericia032$,"É natural que discrepâncias sejam observadas e conclusões distintas sejam obtidas. Doenças são dinâmicas, e demonstrarão modificações entre períodos de tempos distintos.",eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r380,0,^txaQuesitoParteAutora$,"Conforme determinação judicial, em trecho a seguir:
+''O formulário padrão é suficiente à produção da prova técnica. Eventuais omissões poderão ser sanadas, no prazo de dez dias, após a juntada do laudo pericial aos autos, mediante quesitos complementares - que somente serão deferidos quando relevantes para o deslinde do feito e desde que o questionamento não esteja englobado nas considerações constantes do laudo.""",eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r393,0,^txtFormacaoTecnicoProfissional$,Ensino,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r394,0,^txtDID$,,eproc.jfrs.jus.br/eprocV2/controlador.php,0,c66
+r568,0,^txaDocumentosMedicosAnalisados$,"——————————————————————
 
 ⇨Documentos Médicos Anexados
 
-","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial_listar&acao_retorno=laudo_pericial_listar&id_pericia=711647519103710924397187198220&id_processo_parte=711637153714137122448912609804&num_processo=50127725720214047102&hash=aa955d15f78d0cbedc6bf1bc12ee66d1",0,c66
-r586,3,"^rdoPacienteDoPerito$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r587,0,"^txtFormacaoTecnicoProfissional$","-","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r588,0,"^txtUltimaAtividade$","Diarista","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r589,0,"^txtTarefasExigidasUltimaAtividade$","Esforços leves a moderados.","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r590,0,"^txtQuantoTempoUltimaAtividade$"," ","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r591,0,"^txtAteQuandoUltimaAtividade$","2015","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r592,3,"^rdoReabilitacaoProfissional$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r593,0,"^txtExperienciasLaboraisAnt$","------","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r594,0,"^txtMotivoIncapacidade$","Oscilações de Humor","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r595,3,"^rdoDoencaTrabalhoAcidente$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r596,3,"^rdoAutorDoencas$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r597,3,"^rdoAutorCooperaTratamento$","100","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r598,3,"^rdoTratamentoMantidoBeneficioPrevio$","1000","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r599,3,"^chkDadoComplementarPericia002$","1","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r600,3,"^rdoDadoComplementarPericia004_D002_S$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r601,3,"^rdoDadoComplementarPericia005_D002_S$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r602,3,"^rdoDadoComplementarPericia029$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r603,3,"^rdoDadoComplementarPericia033$","01","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r604,0,"^txaHistoricoAnamnese$","Conforme determinação judicial, em trecho a seguir:
-''O formulário padrão é suficiente à produção da prova técnica. Eventuais omissões poderão ser sanadas, no prazo de dez dias, após a juntada do laudo pericial aos autos, mediante quesitos complementares - que somente serão deferidos quando relevantes para o deslinde do feito e desde que o questionamento não esteja englobado nas considerações constantes do laudo.""","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
-r605,0,"^txtDID$","2015","eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68",0,c66
+",eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial_listar&acao_retorno=laudo_pericial_listar&id_pericia=711647519103710924397187198220&id_processo_parte=711637153714137122448912609804&num_processo=50127725720214047102&hash=aa955d15f78d0cbedc6bf1bc12ee66d1,0,c66
+r586,3,^rdoPacienteDoPerito$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r587,0,^txtFormacaoTecnicoProfissional$,-,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r588,0,^txtUltimaAtividade$,Diarista,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r589,0,^txtTarefasExigidasUltimaAtividade$,Esforços leves a moderados.,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r590,0,^txtQuantoTempoUltimaAtividade$, ,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r591,0,^txtAteQuandoUltimaAtividade$,2015,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r592,3,^rdoReabilitacaoProfissional$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r593,0,^txtExperienciasLaboraisAnt$,------,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r594,0,^txtMotivoIncapacidade$,Oscilações de Humor,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r595,3,^rdoDoencaTrabalhoAcidente$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r596,3,^rdoAutorDoencas$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r597,3,^rdoAutorCooperaTratamento$,100,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r598,3,^rdoTratamentoMantidoBeneficioPrevio$,1000,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r599,3,^chkDadoComplementarPericia002$,1,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r600,3,^rdoDadoComplementarPericia004_D002_S$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r601,3,^rdoDadoComplementarPericia005_D002_S$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r602,3,^rdoDadoComplementarPericia029$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r603,3,^rdoDadoComplementarPericia033$,01,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r604,0,^txaHistoricoAnamnese$,"Conforme determinação judicial, em trecho a seguir:
+''O formulário padrão é suficiente à produção da prova técnica. Eventuais omissões poderão ser sanadas, no prazo de dez dias, após a juntada do laudo pericial aos autos, mediante quesitos complementares - que somente serão deferidos quando relevantes para o deslinde do feito e desde que o questionamento não esteja englobado nas considerações constantes do laudo.""",eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
+r605,0,^txtDID$,2015,eproc.jfrs.jus.br/eprocV2/controlador.php\?acao=laudo_pericial_alterar&acao_origem=laudo_pericial&acao_retorno=laudo_pericial&id_pericia=711648576661750903117096075336&id_processo_parte=711630349653745400794594621926&num_processo=50098114620214047102&hash=947ff3a9f9424ce4bd862ebea803bc68,0,c66
 ### AUTOFILL OPTIONS ###,,,,,,
-advanced,"[]",,,,,
-exceptions,"[]",,,,,
-textclips,"[]",,,,,
-variables,"[]",,,,,
+advanced,[],,,,,
+exceptions,[],,,,,
+textclips,[],,,,,
+variables,[],,,,,
 activecat,1,,,,,
 autoimport,0,,,,,
 backup,0,30,,,,
